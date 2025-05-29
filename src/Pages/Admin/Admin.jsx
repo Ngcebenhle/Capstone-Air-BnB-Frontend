@@ -15,7 +15,7 @@ import Card from "../../Components/AdminListingCard/Card";
 const Admin = () => {
   const [reservations, setReservations] = useState([]);
   const [adminListing, setAdminListing] = useState();
-  const { isLoggedIn, token } = useContext(LoginContext);
+  const { isLoggedIn, token, role } = useContext(LoginContext);
   const { res, setRes, list, setList, form, setForm } =
     useContext(listingDetails);
     const { setListingID, listingID, deleteButtonClick, 
@@ -79,6 +79,7 @@ const Admin = () => {
               {/* View only listing reserved that belong to the Logged in Admin */}
             </button>
 
+
             <button
               onClick={(e) => {
                 e.preventDefault();
@@ -101,11 +102,13 @@ const Admin = () => {
                 setRes(false);
                 setList(false);
                 setForm(true);
+                console.log(role)
               }}
             >
               Create Listing
               {/* Open Creat Linsting form */}
             </button>
+
           </div>
         </div>
         <div className="adminPages">
