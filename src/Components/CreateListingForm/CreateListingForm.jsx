@@ -1135,11 +1135,19 @@ const CreateListingForm = () => {
                   </div>
                 </div>
 
+              
+
                 <div className="section2">
+                   
+
                   <div className="createListingFormDetails">
                     <span>Images</span>
                     <button onChange={AddObjectOnChange}>Upload Images</button>
                   </div>
+                   
+                       <div className="importantNote">
+                    <h3>{`Make Sure to Re-Upload (5 min) Display Images`}</h3>
+                       </div>
 
                   <input
                     type="file"

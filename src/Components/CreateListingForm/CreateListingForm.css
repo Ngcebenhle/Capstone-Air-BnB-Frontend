@@ -274,3 +274,6 @@ margin: 40px 0px;
     border-radius: 6px;
     border: none;
    }
+   .importantNote > h3 {
+    color: red;
+   }
