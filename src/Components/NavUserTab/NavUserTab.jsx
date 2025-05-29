@@ -114,7 +114,7 @@ const NavUserTab = () => {
                       { headers: {"Authorization" : `Bearer ${token}`} }
                     )
                     .then(function (response) {
-                      console.log(response);
+                      // console.log(response);
                       setReserves(response.data)
                       //  alert successfull
                     })
@@ -130,7 +130,7 @@ const NavUserTab = () => {
                       { headers: {"Authorization" : `Bearer ${token}`} }
                     )
                     .then(function (response) {
-                      console.log(response);
+                      // console.log(response);
                       setReserves(response.data)
                       //  alert successfull
                     })

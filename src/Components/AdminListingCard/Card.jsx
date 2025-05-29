@@ -146,7 +146,7 @@ function Card(props) {
             .then(function (response) {
             // console.log(response)
               const data = response.data.listings;
-              console.log(data)
+              // console.log(data)
               setUpdateListing(data)
               
               // UpdateAll(data)

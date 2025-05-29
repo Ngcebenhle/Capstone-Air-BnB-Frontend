@@ -27,12 +27,44 @@ const Admin = () => {
   }
   // Reservation
   useEffect(() => {
+
+    if(role == 'user'){
+           axios
+      .get("http://localhost:8000/api/reservations/user/reservations", {
+        headers: { Authorization: `Bearer ${token}` },
+      })
+      .then(function (response) {
+        // console.log(response.data)
+        setReservations(response.data.Reservations);
+      })
+      .catch(function (error) {
+        console.log(error.response);
+        // console.log(token);
+      });
+    }
+    else{
+        axios
+      .get("https://newairbnbbackend-2c630f16ea66.herokuapp.com/api/reservations/admin/reservations", {
+        headers: { Authorization: `Bearer ${token}` },
+      })
+      .then(function (response) {
+        // console.log(response.data)
+        setReservations(response.data.Reservations);
+
+        SetListings(response.data.accomodatins)
+        // setAdminListing(response.data.accomodatins)
+      })
+      .catch(function (error) {
+        console.log(error.response);
+        // console.log(token);
+      });
+    }
     axios
       .get("https://newairbnbbackend-2c630f16ea66.herokuapp.com/api/reservations/admin/reservations", {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then(function (response) {
-        console.log(response.data)
+        // console.log(response.data)
         setReservations(response.data.Reservations);
 
         SetListings(response.data.accomodatins)
@@ -79,7 +111,9 @@ const Admin = () => {
               {/* View only listing reserved that belong to the Logged in Admin */}
             </button>
 
-            <button
+             {role == 'host' ? 
+             <div>
+              <button
               onClick={(e) => {
                 e.preventDefault();
 
@@ -106,6 +140,8 @@ const Admin = () => {
               Create Listing
               {/* Open Creat Linsting form */}
             </button>
+             </div>  : null}
+            
           </div>
         </div>
         <div className="adminPages">
