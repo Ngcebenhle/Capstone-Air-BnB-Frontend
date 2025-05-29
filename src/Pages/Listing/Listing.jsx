@@ -542,7 +542,7 @@ useContext(locationDetails);
                       </div>
 
                       <div className="total">
-                        <span>$ {selectedListing.price * Days + selectedListing.weeklyDiscount +
+                        <span>$ {selectedListing.price * Days - selectedListing.weeklyDiscount +
                           selectedListing.cleaningFee + selectedListing.serviceFee + 
                           selectedListing.occupancyTaxes}</span>
                       </div>
