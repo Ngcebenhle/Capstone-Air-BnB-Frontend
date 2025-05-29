@@ -37,8 +37,16 @@
 .navigation {
   width: 100%;
   height: 40px;
+  display: flex;
 }
 .navigation > button {
+  width: 150px;
+  height: 30px;
+  margin-right: 40px;
+  border-radius: 20px;
+  background: transparent;
+}
+.adminNavigation > button {
   width: 150px;
   height: 30px;
   margin-right: 40px;
