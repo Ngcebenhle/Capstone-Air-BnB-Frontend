@@ -184,6 +184,7 @@ margin: 40px 0px;
 }
 .createListingFormDetails > span {
     margin-right: 260px;
+    color: red;
 }
 .createListingFormDetails > button{
     width: 130px;

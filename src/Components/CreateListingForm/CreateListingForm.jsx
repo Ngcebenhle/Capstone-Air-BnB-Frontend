@@ -612,9 +612,13 @@ const CreateListingForm = () => {
 
             <div className="section2">
               <div className="createListingFormDetails">
-                <span>Images</span>
+                <span>{`Make Sure to Upload (5 min) Display Images`}</span>
                 <button onChange={AddObjectOnChange}>Upload Images</button>
               </div>
+               
+                 <div className="importantNote">
+                    <h3>{`Make Sure to Upload (5 min) Display Images`}</h3>
+                       </div>
 
               <input
                 type="file"
@@ -1141,7 +1145,7 @@ const CreateListingForm = () => {
                    
 
                   <div className="createListingFormDetails">
-                    <span>Images</span>
+                    <span>{`Make Sure to Re-Upload (5 min) Display Images`}</span>
                     <button onChange={AddObjectOnChange}>Upload Images</button>
                   </div>
                    
