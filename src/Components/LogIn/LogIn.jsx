@@ -38,6 +38,8 @@ const LogIn = () => {
       .then(function (response) {
         // set user, isloggedin and the tokens here
         
+        console.log(response)
+        console.log(response.data.role)
         setIsLoggedIn(true);
         setUser(username);
         setToken(response.data.accessToken);

@@ -612,7 +612,7 @@ const CreateListingForm = () => {
 
             <div className="section2">
               <div className="createListingFormDetails">
-                <span>{`Make Sure to Upload (5 min) Display Images`}</span>
+                <span>Images</span>
                 <button onChange={AddObjectOnChange}>Upload Images</button>
               </div>
                
@@ -1145,7 +1145,7 @@ const CreateListingForm = () => {
                    
 
                   <div className="createListingFormDetails">
-                    <span>{`Make Sure to Re-Upload (5 min) Display Images`}</span>
+                    <span>Images</span>
                     <button onChange={AddObjectOnChange}>Upload Images</button>
                   </div>
                    

@@ -15,7 +15,7 @@ import Card from "../../Components/AdminListingCard/Card";
 const Admin = () => {
   const [reservations, setReservations] = useState([]);
   const [adminListing, setAdminListing] = useState();
-  const { isLoggedIn, token } = useContext(LoginContext);
+  const { isLoggedIn, token,role } = useContext(LoginContext);
   const { res, setRes, list, setList, form, setForm } =
     useContext(listingDetails);
     const { setListingID, listingID, deleteButtonClick, 
