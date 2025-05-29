@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    max-height: 65px;
+
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.container > div {
+    width: 20%;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+   
+
+
+}
+.action > button {
+    width: 150px;
+    height: 70%;
+    background-color: rgb(222, 49, 81);
+    border-radius: 10px;
+    margin: 0px auto;
+}

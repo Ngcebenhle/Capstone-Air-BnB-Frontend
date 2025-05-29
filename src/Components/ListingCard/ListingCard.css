@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* Listing Container  */
+.listingCardContainer {
+  padding: 12px;
+  width: 100%;
+  /* max-height: 400px; */
+  border: 1px solid grey;
+  margin-top: 15px;
+  border-radius: 10px;
+
+ 
+}
+
+/* Content */
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+/* All the span tags under the listing 
+Card */
+span {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  /* line-height: 2px; */
+  text-align: left;
+  color: rgba(107, 114, 128, 1);
+
+  /* styleName: text-sm/Regular; */
+}
+/* Display Image */
+.displayImage {
+  max-width: 200px;
+  max-height: 250px;
+  margin-right: 20px;
+}
+.displayImage > img {
+  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Data display */
+.displayData {
+  width: 100%;
+}
+.displayData > div {
+  margin-bottom: 10px;
+}
+.displayData > hr {
+  width: 3%;
+  border: 1px solid whitesmoke;
+  border-radius: 100%;
+}
+.location-name{
+    line-height: 18px;
+}
+.listingDetails {
+  display: flex;
+  justify-content: space-between;
+}
+.listingDescription {
+  margin-top: 6px;
+  line-height: 11px;
+}
+.ratingPrice {
+  display: flex;
+  width: 100%;
+  margin-top: 4px;
+  justify-content: space-between;
+}
+.price{
+    /* font-family: Inter; */
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(47, 49, 51);
+}
+/* These are the Admin Buttons Only When logged in 
+as an Admin can you see these */
+.adminButtons{
+ display: flex;
+ flex-direction: column;
+ max-width: 200px;
+}
+adminButtons > button{
+ margin-top: 10px;
+ height: 30px;
+ border-radius: 5px;
+ color: white;
+ border: none;
+}
+.update{
+    background-color: rgb(65, 83, 245) ;
+}
+.delete{
+    background-color: rgb(222, 49, 81) ;
+}
+

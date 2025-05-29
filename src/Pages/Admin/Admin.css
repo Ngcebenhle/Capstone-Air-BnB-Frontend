@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+ 
+  max-height: 100%;
+ 
+}
+.main > div {
+  margin-bottom: 50px;
+}
+.adminNav {
+  width: 88%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  /* margin-bottom: 50px; */
+  background-color: rgb(255, 255, 255);
+}
+.adminLogo {
+  max-height: 70px;
+  max-width: 150px;
+}
+
+
+/* Navigation Buttons */
+.adminNavButtons {
+  max-width: 100%;
+  max-height: 40px;
+  padding: 0px 70px;
+}
+.navigation {
+  width: 100%;
+  height: 40px;
+}
+.navigation > button {
+  width: 150px;
+  height: 30px;
+  margin-right: 40px;
+  border-radius: 20px;
+  background: transparent;
+}
+
+/* Admin Pages  */
+.adminPages {
+
+  max-height: 770px;
+  padding: 0px 40px;
+  position: relative;
+  display: flex;
+  overflow: scroll;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.reservationsList {
+  
+  height: 100%;
+}
+.reservationsList > h2 {
+  margin-bottom: 20px;
+}
+/* .action, .checkOutDate, .checkInDate,
+.property, .bookedBy {
+  background-color: silver;
+} */
+
+.listingsList {
+  /* make srollable */
+  width: 100%;
+  height: 100%;
+}
+.createlisting {
+  /* Dont make srollable */
+  width: 100%;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
+}

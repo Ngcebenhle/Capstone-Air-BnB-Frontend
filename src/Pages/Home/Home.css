@@ -1,0 +1,468 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+  
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: 70px;
+    padding: 0px 40px;
+
+    background-color: rgb(0, 0, 0);
+
+}
+.nav > div {
+    
+    margin: 0px 30px;
+}
+.logo{
+    max-width: 100px;
+}
+.navLinks{
+    max-width: 408px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.navLinks > span {
+    margin-right: 15px;
+    color: white;
+    
+}
+.userProfile{
+    display: flex;
+    justify-content: end;
+}
+.locationFilter{
+    display: flex;
+    max-width: 100%;
+    max-height: 100px;
+    background-color: black;
+
+    justify-content: center;
+}
+.locationFilter > div {
+    max-width: 100%;
+}
+
+
+/* Banner Section */
+.banner{
+ width: 100%;
+ height: 100vh;
+ position: relative;
+  background-color: rgb(0, 0, 0);
+ padding: 0px 70px;
+ padding-bottom: 120px;
+
+}
+
+.bannerText{
+    position: absolute;
+    top: 65%;
+    left: 30%;
+   
+}
+.bannerTextContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.bannerTextContent > h1{
+    
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: left;
+
+}
+.bannerTextContent > button {
+    width: 90px;
+    height: 40px;
+    color: rgb(201, 64, 64);
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: rgb(240, 240, 240);
+}
+.extraContent{
+    width: 100%;
+    height: 3096px;
+    padding: 50px 70px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Inspiratio section */
+.inspiration{
+    /* width: 100%; */
+    max-height: 444px;
+    /* max-height: 536px; */
+    margin-bottom: 50px;
+    /* padding: 0px 50px; */
+    /* background-color: red; */
+}
+.inspirationCards{
+    /* height: 20%; */ 
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-bottom: 30px;
+    max-width: 1600px;
+    max-height: 500px;
+    /* background-color: green; */
+
+    
+}
+.discover > h1{
+    margin-top: 80px;
+    
+}
+.inspirationCards > div {
+   
+    margin-right: 22px;
+    max-height: 444px;
+}
+.card1{
+      max-width: 324px ;
+      max-height:444px;
+
+      /* width: 324px ; */
+      height:100%;
+      width: 100%;
+}
+.card2{
+    /* width: 295px; */
+    max-width: 295px;
+    height:100%;
+    width: 100%;
+
+}
+.card3{
+    /* width: 296px; */
+    height: 100%;
+    width: 100%;
+    max-width: 296px;
+}
+
+.card4{
+    /* width: 295px; */
+    height: 100%;
+    width: 100%;
+    max-width: 295px;
+}
+
+
+.inspiration > h2 {
+   
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+.card{
+    
+    width: 305px;
+    height: 370px;
+    border-radius: 10px;
+    position: relative;
+    background-color:grey;
+
+    margin: 0px 10px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.details{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    border-top: 1px solid gray;
+    border-radius: 10px;
+    background-color: red;
+    
+    top: 200px;
+}
+
+
+/* Discover Section */
+.discover{
+    width: 100%;
+    max-height: 720px;
+}
+.discover > h1{
+    
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+
+    margin-bottom: 20px;
+
+}
+.banners{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.banners > div {
+    width: 100%;
+    height: 100%;
+    margin: 0px 5px 0px 5px;
+}
+.photo1, .photo2 {
+    position: relative;
+}
+
+
+.photo1 > img {
+    width: 95%;
+    max-height: 645px;
+    border-radius: 10px;
+}
+.photo2 > img {
+    width: 95%;
+    max-height: 645px;
+    border-radius: 10px;
+}
+.photo1Text, .photo2Text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.photo1Text > h1 {
+    max-width: 300px;
+    max-height: 112px;
+
+    
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: left;
+
+    color: white;
+}
+.photo1Text > button {
+    width: 142px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+}
+
+.photo2Text > h1 {
+    max-width: 280px;
+    max-height: 112px;
+
+    
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: left;
+
+    color: white;
+}
+.photo2Text > button {
+    width: 195px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+/* Shop  */
+.shop{
+    width: 100%;
+    max-height: 320px;
+    display: flex;
+    margin-top: 50px;
+    /* align-items: center; */
+
+}
+.shopText{
+    height: 320px;
+    width: 500px;
+
+    display: flex;
+    align-items: center;
+  
+
+}
+
+.shopTextContent > h1 {
+   
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+
+    max-width: 300px;
+   
+
+}
+.shopTextContent > button {
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+}
+.shopImage{
+    /* max-width: 100%;
+    max-height: 320px; */
+
+    width: 100%;
+    height: 320px;
+   
+}
+/* .shopImage > img {
+    width: 100%;
+    height: 100%;
+   
+} */
+
+
+/* Questions section */
+.questionsBanner{
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    height: 640px;
+
+    background-color: red;
+}
+.questionsText{
+    position: absolute;
+    max-width: 250px;
+    top: 5%;
+    left: 4%;
+}
+.questionsText > h1 {
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 96px;
+    text-align: left;
+
+    color: white;
+    margin-bottom: 80px;
+
+}
+.questionsText > button {
+    width: 142px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+}
+
+/* Inspiration For Future getaway */
+.inspirationForFuture{
+    margin-top: 50px;
+    width: 100%;
+    max-height: 304px;
+    margin-bottom: 60px;
+}
+.inspirationForFuture > h2 {
+    
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+.links{
+    margin-bottom: 20px;
+    display: flex;
+}
+.links > section{
+   margin-right: 12px;
+  
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgb(233, 167, 25) 7px;
+    background-image: linear-gradient(to right, gray, rgb(233, 167, 25) 7px,);
+    background-size: 200%;
+  
+}
+.links > section:hover{
+    text-decoration: none;
+  /* color: rgb(233, 167, 25) 7px; */
+ 
+  text-decoration: underline solid rgb(233, 167, 25) 7px;
+  
+
+  background-position: 100%;
+
+}
+/* Links Span If Active color is black but 
+  if not color is gray and the is a hover highlit effect
+    underline under the links name and the active
+    one */
+.suggestions{
+    width: 100%;
+    display: flex;
+}
+.sugestedlocations > h2 {
+    
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+}
+.sugestedlocations > span {
+   
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(107, 114, 128, 1);
+
+
+}
+.suggestions > div {
+    width: 25%;
+    margin: 10px 0px;
+}
+/* .active{
+    text-decoration: underline;
+    text-decoration-color: rgb(233, 167, 25);
+
+   
+   
+} */
+::-webkit-scrollbar {
+    display: none;
+  }

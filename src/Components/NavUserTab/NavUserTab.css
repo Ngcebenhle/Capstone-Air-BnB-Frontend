@@ -1,0 +1,75 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.user{
+  height: 50px;
+  max-width: 250px;
+  /* padding: 0px 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  
+}
+
+.userName {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+ 
+}
+
+.userName > span {
+  margin-bottom: 5px;
+}
+
+.languageIcon {
+ 
+  fill: white;
+}
+
+
+.profileIcon {
+  width: 75px;
+  height: 40px;
+  border-radius: 20px;
+  position: relative;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3px;
+
+}
+
+.menuIcon {
+  width: 30px;
+  margin-right: 7px;
+}
+
+.userProfile {
+  width: 30px;
+}
+
+.menuItems {
+  max-width: 161px;
+  max-height: 41px;
+  position: absolute;
+  top: 45px;
+}
+
+.menuItems > button {
+  width: 120px;
+  height: 30px;
+}
+
+.LoggedInButtons > button {
+  width: 120px;
+  height: 30px;
+}
+

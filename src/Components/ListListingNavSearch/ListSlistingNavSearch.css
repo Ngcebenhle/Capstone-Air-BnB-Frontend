@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.ListListingNavSearch{
+    /* max-width: 334px;
+    max-height: 48px; */
+    /* width: 100%; */
+    max-height: 49px;
+    min-width: 150px;
+
+}
+.middleSection{
+  
+}
+.tabs{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius:25px;
+    padding: 2px 2px;
+    margin-right: 3px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+}
+/* .listListingLocation > div {
+   
+ 
+ width: 100px;
+ background-color: red;
+    
+} */
+.tab {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid gray ;
+    justify-content: center;
+}
+.lolistListingLocation{
+    /* width: 90px; */
+ 
+    
+}
+span{
+    margin: 0px 5px;
+}
+select{
+    /* width: 150px; */
+    border: none;
+    z-index: 500;
+    height: 20px;
+}
+.guests {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 40px;
+}
+.dates{
+
+    /* width: 50px; */
+}
+.listListingLocation > select {
+    width: 100px;
+}

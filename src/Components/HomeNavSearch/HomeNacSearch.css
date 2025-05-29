@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+.homeNavSearch{
+    /* max-width: 848px;
+    max-height: 65px; */
+
+    max-width: 648px;
+    /* min-width: 848px; */
+    height: 50px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+    margin-bottom: 12px;
+    padding: 15px 5px;
+}
+
+
+.homeNavSearch > div {
+   
+    line-height: 20px;
+    height: 40px;
+
+}
+
+
+.checkIn, .checkOut{
+    width: 24%;
+}
+.location, .checkIn,
+.checkOut, .guest{ 
+    border-right: 1px solid rgb(236, 236, 236);
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 15px;
+    max-width: 300px;
+    /* background-color: red; */
+    
+}
+.location, .checkIn,
+.checkOut{
+ margin-right: 10px;
+}
+/* .headingText{
+    
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+
+
+}
+.subText {
+   
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(107, 114, 128, 1);
+
+
+} */
+
+select{
+    width: 150px;
+    border: none;
+    z-index: 500;
+}
+
+.guest{
+    position: relative;
+    
+}
+.guestAdder{
+    position: absolute;
+    top: 45px;
+    left: -12px;
+    z-index: 200;
+    /* width: 200px; */
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 7px;
+}
+.guestAdder > div {
+    margin: 15px 5px;
+}
+.close{
+    display: flex;
+    justify-content: end;
+  
+}
+
+.adults, .children{
+  display: flex;
+}
+.adults > button {
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+}
+.children > button {
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+}
+.adults > p {
+    width: 30px;
+    margin: 0px 15px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.children > p {
+    width: 30px;
+    margin: 0px 15px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.children > span {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    
+}
+.adults > span {
+    width: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.react-datepicker-popper {
+    width: 90px;
+    height: 15px;
+  }

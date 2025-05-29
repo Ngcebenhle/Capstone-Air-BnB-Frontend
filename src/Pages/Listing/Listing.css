@@ -1,0 +1,886 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.listingContainer{
+    height: 100%;
+    padding: 0px 70px;
+}
+
+/* Nav styling */
+
+
+.listingNav {
+  max-width: 100%;
+  min-height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+  
+}
+.listingNav > div {
+    /* margin: 0px 10px; */
+}
+.listingLogo{
+    max-width: 500px;
+  
+   
+}
+.listingSearch {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  
+}
+.listingNavUserProfile{
+    width: 250px;
+    height: 40px;
+  
+
+    margin-left: 300px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+/* First Section Styling */
+.miniListingInfo{
+    /* padding: 0px 95px; */
+}
+.miniListingInfo > h3 {
+    /* //styleName: text-3xl/Medium; */
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+
+}
+.subMiniInfoBar {
+  display: flex;
+  justify-content: space-between;
+}
+.miniInfo{
+    display: flex;
+    align-items: end;
+}
+.miniInfo > span {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+
+}
+.interaction{
+    /* margin-right: 49px; */
+}
+
+
+/* Third Section Styling */
+.listingInfo{
+    /* padding: 0px 95px; */
+   
+    
+}
+.Images{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    max-height: 540px;
+    
+
+}
+.mainImage{
+    /* max-width: 700px;
+    max-height: 500px; */
+    width: 100%;
+    height: 100%;
+    /* margin-right: 1px; */
+
+}
+.mainImageBanner{
+ /* width: 50%; */
+ max-height: 384px;
+ border-radius: 25px;
+ padding: 3px;
+
+}
+
+/* .mainImageBanner > img{
+    width: 100%;
+    height: 100%;
+   } */
+  
+.subImages{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+
+    /* Display flex and wrap the 
+    content  */
+}
+.firstTwoImages, .lastTwoImages{
+    display: flex;
+} 
+.subImage{
+ margin-right: 10px;
+}
+.smallerImage{
+  max-width: 315px;
+  max-height: 188px;
+  border-radius: 15px;
+}
+img{
+    object-fit: cover;
+}
+
+/* Extensive Listing Details  */
+.ListingDetails{
+  
+}
+.detailsOfListing{
+    
+    /* padding-right: 50px; */
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+  
+   
+}
+.info{
+    /* max-width: 70%; */
+    min-width: 500px;
+    max-width: 600px;
+    
+}
+.hostaListingName{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  
+}
+.hostName > h3 { 
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;  
+}
+.hostName > span {
+  
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+}
+
+
+/* Host profile photo */
+.hostPhoto{
+    position: relative;
+    max-width: 50px;
+    max-height: 50px;
+}
+.hostPhoto > img {
+   width: 100%;
+   height: 100%;
+    border: none;
+    border-radius: 100%; 
+    /* Make it round Shaped */
+}
+.hostTagIcon{
+position: absolute;
+top: 27px;
+left: 30px;
+}
+
+.amendeties{
+    margin: 15px 0px;
+}
+.amendeties > div {
+    margin: 20px 0px;
+}
+.accomodationTypeDescription{
+ display: flex;
+ align-items: end;
+}
+.descriptiveIcon{
+    margin-right: 10px;
+}
+.accomodationType > h4{  
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 5px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.accomodationType > span{
+  
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 5px; */
+    text-align: left;
+    color: rgba(107, 114, 128, 1);
+}
+
+.cleaningDescription{
+    display: flex;
+    align-items: end;  
+}
+.descriptiveIcon{
+       margin-right: 10px;
+}
+.cleaningType > h4{
+     
+       font-family: Inter;
+       font-size: 16px;
+       font-weight: 500;
+       line-height: 5px;
+       text-align: left;
+       color: rgba(0, 0, 0, 1);
+
+}
+.cleaningType > span{
+     
+       font-family: Inter;
+       font-size: 14px;
+       font-weight: 400;
+       /* line-height: 5px; */
+       text-align: left;
+       color: rgba(107, 114, 128, 1);
+ 
+}
+   
+ .listingTextDescription{
+    margin: 20px 0px;
+ }  
+.listingTextDescription > p{
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+
+
+/* Side Card Reserve Section */
+.reserve{ 
+    padding: 20px;
+    max-width: 30%;
+    width: 300px;
+    height: 470px;
+    border: 1px solid gray;
+    border-radius: 14px;
+    box-shadow: 10px 10px 5px rgb(86, 89, 90);
+}
+.priceAndReview{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.dollarAmount{
+   
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    /* line-height: 32px; */
+    text-align: left;
+
+}
+
+/* Dates Box On the Reserve Card */
+.datesAndGusts{
+    border-radius: 20px;
+    width: 100%;
+    height: 90px;
+ 
+   
+    margin-bottom: 20px;
+}
+.chooseDates{
+   display: flex;
+   
+}
+.checkingInDate, .checkingOutDate{
+    width:49%;
+    margin-right: 1%;
+    height: 45px;
+    /* border-right: 1px solid  black; */
+    
+    
+}
+.geusts{
+    height: 50%;
+    width: 100%;
+    border-top: 1px solid black;
+    /* background-color: goldenrod; */
+    position: relative;
+}
+.reserveButton > button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(222, 49, 81) ;
+    margin-bottom: 15px;
+}
+.randomText{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(107, 114, 128, 1);
+}
+
+/* Pricing Display  */
+.pricePerDay, .weeklyDiscount,
+.cleaningFee, .serviceFee,
+.ocupancyTaxAndFees, .grandTotal{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0px;
+
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+.grandTotal{
+ margin-top: 5px;
+}
+.reportListing{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(107, 114, 128, 1);
+
+}
+
+
+/* Where You'll Sleep Section Bedroom
+ Section  */
+
+.extra{
+    max-width: 50%;
+}
+.bedroomShowcase{
+    margin: 15px 0px;
+}
+.bedroomShowcase > h3 {
+   
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+   margin-bottom: 15px;
+}
+.bedroomDetails > h4{
+   
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+}
+.bedroomDetails > span{
+   
+    
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    
+    
+    }
+.bedroomPhotos{
+    max-width: 250px;
+    max-height: 270px;
+}
+.bedroomPhotos > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+
+
+/* What This Place Offers Section */
+.offersAvailable{
+    margin: 15px 0px;
+}
+.offersAvailable > h3{
+ margin-bottom: 15px;
+}
+.offers{
+    display: flex;
+}
+.offerList{
+    margin-right: 20px;
+    width: 300px;
+}
+.offer{
+    display: flex;
+  
+}
+.offerIcon{
+    margin-right: 10px;
+}
+.offerName{
+    display: flex;
+    align-items: center;
+}
+.offerName > h5 {
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+}
+.offerButton > button {
+    width: 150px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: transparent;
+    margin: 15px 0px;
+}
+
+
+
+/* Dates and calender display here */
+.reviews{
+    width: 100%;
+    /* padding: 0px 95px; */
+    /* margin: 20px 0px; */
+    margin-bottom: 25px;
+    margin-top: 20px;
+    
+}
+.slideGraphs{
+    display: flex;
+    width: 100%;
+    margin: 15px 0px;
+  
+    
+}
+.graphlist{
+    
+    max-width: 520px;
+    max-height: 104px;
+    margin-right: 130px;
+    width: 50%;
+}
+.graph{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+   
+}
+.graph > h6 {
+   
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+/* Reviers/ Comments Section */
+.reviewComments{
+    display: flex;
+    width: 100%; 
+}
+.commentsList{
+    width: 100%;
+    height: 100%;
+   
+}
+.comments > .userData{
+    display: flex;
+    /* margin-bottom: 15px;   */
+}
+.userPhoto{
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 20px;
+}
+.userPhoto > img{
+    /* max-width: 40px;
+    max-height: 40px; */
+    width: 100%;
+    height: 100%;
+     border: none;
+     border-radius: 100%; 
+}
+.userDetails{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.userDetails > h3{
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 10px;
+    text-align: left;
+
+}
+.userDetails > span{
+   
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(107, 114, 128, 1);
+
+
+}
+.commentedText > p {
+   
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+
+}
+.comments{
+    margin: 12px 0px 12px 0px;
+    max-width: 520px;
+    max-height: 180px;
+    
+}
+.reviewButton > button{
+    width: 150px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: transparent;
+    margin: 20px 0px;
+}
+
+
+
+/* Hosted By Section */
+.hostDetails{
+    /* padding: 0px 95px;
+    margin-top: 20px; */
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.hostedByUser{
+    display: flex;
+    margin: 10px 0px;
+}
+.userPhoto{
+    max-width: 40px;
+    max-height: 40px;
+}
+.userPhoto > img {
+    width: 100%;
+    height: 100%;
+     border: none;
+     border-radius: 100%; 
+}
+.userDetails > h3{
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+
+}
+.userDetails > span{
+
+    
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(107, 114, 128, 1);
+
+
+
+}
+.userDescriptiveDetails{
+    margin-top: 20px;
+}
+.userDescriptiveDetails > h4{
+    margin-top: 12px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+   }
+.userDescriptiveDetails > p{
+    margin: 12px 0px 12px 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(107, 114, 128, 1);
+
+
+}
+.contactUserButton > button{
+width: 180px;
+height: 65px;
+background: transparent;
+border-radius: 12px;
+border: 1px solid  gray;
+margin: 12px 0px;
+/* font-weight: bold; */
+
+}
+.extraText{
+    display: flex;
+    max-width: 200px;
+}
+.extraText > div {
+    margin: 10px 5px;
+}
+.text{
+    
+font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+color: rgba(107, 114, 128, 1);
+
+
+}
+
+
+
+/* Things To Know Section */
+.thingsToKnow{
+    width: 100%;
+    /* padding: 0px 95px; */
+    min-height: 324px;
+    margin-top: 25px;
+}
+.thingsToKnow > h1{
+   
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+.thingsToKnowInfo{
+    display: flex;
+}
+.thingsToKnowInfo > div{
+    height: 100%;
+    max-width: 320px;
+    margin: 5px;
+    margin-right: 12px;
+}
+
+.houseRules{
+  width: 100%;
+  height: 100%;
+}
+.houseRules > h3 {
+   
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+.healthAndSafety{
+    width: 100%;
+    height: 100%;
+}
+.healthAndSafety > h3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.cancellation{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.cancellation > h3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.cancellation > span {
+    
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(75, 85, 99, 1);
+
+    
+}
+
+
+/* Explore Other Section */
+.explore{
+    width: 100%;
+    /* padding: 0px 95px; */
+    /* background-color: rgb(249, 250, 251); */
+    margin-bottom: 60px;
+
+}
+.explore > h4 {
+    
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+
+}
+.explore > h5 {
+    
+    
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+}
+.optionList{
+    width: 100%;
+    height: 100%;
+}
+.option{
+    margin: 15px 0px 10px 0px;
+}
+.option > p {
+   
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(75, 85, 99, 1);
+
+
+}
+
+.links > span{
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+    width: 44px;
+    height: 20px;
+
+}
+
+.footer{
+    padding: 0px 95px;
+    background-color: rgb(249, 250, 251);
+}
+
+.dates{
+    max-width: 490px;
+    max-height: 590px;
+
+}
+.dateSubText{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(107, 114, 128, 1);
+
+
+}
+.dates > h5{
+font-family: Inter;
+font-style: bold;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+.calenders{
+    display: flex;
+}
+.calenders > div {
+    margin: 20px;
+}
+.react-datepicker__input-container > input{
+    /* width: 100px;
+    height: 40px; */
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
