@@ -28,7 +28,7 @@ const Admin = () => {
   // Reservation
   useEffect(() => {
     axios
-      .get("https://newairbnbbackend-2c630f16ea66.herokuapp.com/api/reservations//admin/reservations", {
+      .get("https://newairbnbbackend-2c630f16ea66.herokuapp.com/api/reservations/admin/reservations", {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then(function (response) {

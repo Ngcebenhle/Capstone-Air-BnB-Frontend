@@ -111,7 +111,7 @@ const HomeNavSearch = () => {
               
             }}
           >
-            <option></option>
+            <option>Select Location</option>
               <option value={"all locations"}>All Locations</option>
             {locations
               ? locations.map((locationList) => {
