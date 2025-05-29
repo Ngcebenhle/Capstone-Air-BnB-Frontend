@@ -112,7 +112,7 @@ const Admin = () => {
             </button>
 
              {role == 'host' ? 
-             <div>
+             <div className="navigation">
               <button
               onClick={(e) => {
                 e.preventDefault();
