@@ -150,15 +150,15 @@ useContext(locationDetails);
           console.log(error);
         });
 
-
+       alert("Reservation Made Congratulation!!!!!!!!!!!!!!");
     } else {
       // send token and dates and listing id to the backend
       // send out an alert for notification
-
+       alert("Please Log In To Make A Reservation");
       history.push("/logIn");
     }
 
-    alert("Reservation Made Congratulation!!!!!!!!!!!!!!");
+   
   };
 
   return (
